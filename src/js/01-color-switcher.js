@@ -13,7 +13,7 @@ startBtn.addEventListener('click', () => {
 
     intervalId = setInterval(() => {
         document.body.style.backgroundColor = getRandomHexColor()
-    }, 10)
+    }, 1000)
     
 })
 
